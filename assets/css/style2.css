@@ -1,0 +1,163 @@
+/* structure*/
+.header{
+    width: 100%;
+    max-height: 88px;
+    height:100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    margin-top:0px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+}
+#headername{
+    max-width: 200px;
+    height:50px;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 13px;
+    padding-right:20px;
+    padding-left:20px;
+    margin-right: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+}
+/*top menu*/
+.menu{
+    position: relative;
+    max-width:960px;
+    max-height: 88px;
+    height: 100%;
+    margin: auto;
+    margin-right: 288px;
+    width:100%;
+    background-color: #ffffff;
+}
+/*menu buttons*/
+a{
+    position: relative;
+    max-width: 40px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    text-align: right;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777777;
+    text-decoration: none;
+
+}
+#centerbutton{
+    border-left-style:solid;
+    border-left-width: 2px;
+    border-left-color: #cccccc;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*@@@@@@body of content@@@@@@@*/
+
+/* Centering content*/
+.centeredcontent{
+    max-width:960px;
+    max-height: 1000px;
+    height: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top:120px;  
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+/* float content left*/
+.left{
+    float: left;
+}
+
+/* Float content right*/
+.right{
+    float: right;
+}
+
+/*separating header from rest of body */
+.aboutme{
+    background-color: #ffffff;
+    padding-bottom: 1px;
+    padding-top: 3px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    color:#4aaaa5;
+}
+/*border for about me title*/
+.aboutmeborder{
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    padding-bottom:15px;
+    margin-bottom: 5px;
+}
+/*image container formating*/
+.imagecontainer{
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+/*image formating*/
+.myface{
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+.bodytextcontainer{
+    margin-left: 30px;
+    padding-right: 25px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+/* formating body text properties */
+.bodytext{
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 20pt;
+    color: #777777;
+}
+/*@@@@@@ Footer @@@@@@@*/
+.footer{
+    width: 100%;
+    max-height: 65px;
+    height:100%;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+}
+.footertext{
+    text-align: center;
+    padding-top: 22px;
+    color: #ffffff;
+}
+/* Dimensions of name and email*/
+input{
+    width: 100%;
+}
+ a:hover{
+    color: black;
+}
